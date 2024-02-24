@@ -1,0 +1,119 @@
+* {
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+}
+
+body {
+      font-family: Lato;
+      background-color: #455A64;
+      color: #fff;
+}
+
+main {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+}
+
+.title {
+      padding: 10px 0;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      text-align: center;
+}
+
+.palindrome-div {
+      width: min(100vw, 450px);
+      min-height: 100px;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      margin: 10px 0;
+      background-color: #fff;
+      box-shadow: 0 6px 6px #039BE5;
+}
+
+label {
+      color: #0a0a23;
+      margin-bottom: 20px;
+}
+
+.palindrome-btn {
+      width: 90px;
+      border: none;
+      border-radius: 15px;
+      padding: 10px;
+      background-color: #039BE5;
+      color: #fff;
+      cursor: pointer;
+}
+
+.palindrome-input {
+      width: 250px;
+      height: 30px;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 10px;
+      border: none;
+      border-bottom: 1px solid #039BE5;
+      outline: none;
+}
+
+.palindrome-input:focus {
+      border-bottom: 3px solid #039be5;
+}
+
+.palindrome-input::placeholder {
+      text-align: center;
+}
+
+.result-div {
+      overflow-y: auto;
+      word-wrap: break-word;
+      min-height: 50px;
+      color: #000;
+}
+
+.hidden {
+      display: none;
+}
+
+.palindrome-definition-div {
+      width: min(100vw, 450px);
+      min-height: 140px;
+      font-size: 1.3rem;
+      background-color: #757575;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.palindrome-definition {
+      vertical-align: middle;
+      text-align: center;
+}
+
+/* class generated in js-file */
+.user-input {
+      font-size: 1.4rem;
+      margin-top: 10px;
+      text-align: center;
+}
+
+footer {
+      font-size: 0.9rem;
+      margin-top: 15px;
+      text-align: center;
+}
